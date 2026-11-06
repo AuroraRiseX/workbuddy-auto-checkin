@@ -1,0 +1,22 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependencies and generated packages
+node_modules/
+*.zip
+
+# Runtime files and local configuration
+*.log
+*.log.old
+*.lock
+last-result.json
+run.ps1
+.env
+.env.*
+!.env.example
+endpoint.json
+*credentials*.json
+*token*.json
